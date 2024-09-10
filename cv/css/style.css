@@ -1,0 +1,117 @@
+body {
+    margin: 0px;
+}
+a {
+    color: darkgreen;
+    text-decoration: none;
+}
+a:hover {
+    color: magenta;
+}
+nav {
+    background-color: #b2d8b2;
+    border-bottom: 2px solid darkgreen;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+}
+footer {
+    background-color: #b2d8b2;
+    border-top: 2px solid darkgreen;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+}
+.splash {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.splash h1 {
+    font-size: 45px;
+    text-shadow: 1px 1px 3px darkgrey;
+    font-family: 'Playfair Display', serif;
+    color: #004d00;
+}
+.splash img {
+    border-radius: 12px;
+}
+.splash p {
+    font-family: 'Playfair Display', serif;
+    line-height: 1.5;
+    font-size: 15px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+hr {
+    border-style: dashed;
+    border-color: darkgreen;
+    border-width: 2px;
+}
+h2 {
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    color: #228B22;
+}
+.edu-paragraph {
+    padding-right: 18px;
+    padding-left: 18px;
+    text-align: center;
+}
+ul {
+    list-style-type: square;
+    padding-left: 40px;
+}
+.leadership {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    padding-left: 30px;
+
+}
+.honors {
+    display:grid;
+    grid-template-columns: 1fr 4fr;
+    padding-left: 30px;
+}
+dd {
+    font-style: italic;
+    font-size: 15px;
+    margin-left: 20px;
+}
+.three-col {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+    box-shadow: 4px 4px 5px grey;
+    border-radius: 10px;
+    margin-left: 7px;
+    margin-right: 7px;
+    margin-bottom: 10px;
+}
+.card img {
+    align-items: center;
+    max-height: 200px;
+    width: auto;
+    object-fit: contain;
+}
+.one-col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5px;
+}
+.input {
+  background-color: lightgray; 
+  border: none;
+  padding: 10px;
+}
+.button:hover {
+    background-color: magenta;
+}
